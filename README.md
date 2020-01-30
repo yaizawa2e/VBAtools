@@ -2,7 +2,7 @@
 
 VBAを便利に使うためのライブラリをいくつか提供します。
 
-* Iconv.bas
+* Iconv.cls
    * Iconvのような文字コード変換機能を提供するクラスです。
      内部的にはADODB.Streamを使って文字コードを変換しますのでMicrosoft ActiveX Data Objectsを参照設定してお使いください。
    * ADODB.Streamの文字コード指定だけでは若干使いにくいため、次のような挙動をするようにしています。
